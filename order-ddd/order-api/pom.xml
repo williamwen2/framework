@@ -17,6 +17,14 @@
     <properties>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>order-ddd</groupId>
+            <artifactId>order-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>order-ddd</groupId>
+            <artifactId>order-domain</artifactId>
+        </dependency>
     </dependencies>
 
     <!-- deploy destination -->
