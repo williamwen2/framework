@@ -3,25 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>order-ddd</groupId>
-    <artifactId>order-ddd</artifactId>
+    <parent>
+        <groupId>order-ddd</groupId>
+        <artifactId>order-ddd</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>order-application</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>order ddd framework</description>
-
-    <modules>
-        <module>order-api</module>
-        <module>order-domain</module>
-        <module>order-boot</module>
-        <module>order-infra</module>
-        <module>order-application</module>
-    </modules>
+    <description>order appilication project</description>
 
     <properties>
     </properties>
-
     <dependencies>
-      
     </dependencies>
 
     <!-- deploy destination -->
