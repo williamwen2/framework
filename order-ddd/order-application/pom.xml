@@ -20,6 +20,7 @@
         <dependency>
             <groupId>order-ddd</groupId>
             <artifactId>order-domain</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

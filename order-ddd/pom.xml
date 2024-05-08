@@ -12,7 +12,6 @@
     <modules>
         <module>order-api</module>
         <module>order-domain</module>
-        <module>order-boot</module>
         <module>order-infra</module>
         <module>order-application</module>
     </modules>
