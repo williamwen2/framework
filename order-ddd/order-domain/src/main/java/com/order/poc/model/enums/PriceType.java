@@ -15,7 +15,7 @@ public enum PriceType implements Serializable {
         }
     }
 
-    public PriceType(String value) {
+    PriceType(String value) {
         this.value = value;
     }
 
