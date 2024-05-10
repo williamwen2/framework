@@ -1,14 +1,14 @@
 package com.order.poc.model;
 
-import com.order.poc.model.enums.PriceType;
 import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ * Order price
+ * **/
 @Data
 public class PriceModel {
-
-    private PriceType priceType;
 
     private BigDecimal totalAmount;
 
@@ -18,8 +18,6 @@ public class PriceModel {
 
     private BigDecimal taxPrice;
 
-    private BigDecimal discountAmount;
-
-    private BigDecimal discountPrice;
+    private DiscountModel discount;
 
 }
