@@ -9,5 +9,9 @@ import java.net.http.HttpResponse;
  * **/
 public interface OrderCoreApi {
 
-    public HttpResponse<OrderCoreDto> saveOrder();
+    /**
+     * Save order API
+     *  @param
+     * **/
+    public HttpResponse<OrderCoreDto> saveOrder(OrderCoreDto orderCoreDto);
 }
