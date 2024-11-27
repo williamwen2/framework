@@ -1,5 +1,11 @@
 package com.order.poc.dto;
 
+import lombok.Data;
+
+/**
+ * order core elements dto
+ * **/
+@Data
 public class OrderCoreDto {
 
     /**

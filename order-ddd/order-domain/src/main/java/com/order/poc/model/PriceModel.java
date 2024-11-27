@@ -30,6 +30,9 @@ public class PriceModel {
      * **/
     private BigDecimal taxPrice;
 
+    /**
+     * discount related elements
+     * **/
     private DiscountModel discount;
 
 }

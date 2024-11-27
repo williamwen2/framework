@@ -1,7 +1,12 @@
 package com.order.poc.dto;
 
-import java.math.BigDecimal;
+import lombok.Data;
 
+import java.math.BigDecimal;
+/**
+ * price elements of order dto
+ * **/
+@Data
 public class PriceDto {
 
     private BigDecimal totalAmount;
@@ -12,5 +17,5 @@ public class PriceDto {
 
     private BigDecimal taxPrice;
 
-    private DiscountModel discount;
+    private DiscountDto discount;
 }

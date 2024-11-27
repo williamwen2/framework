@@ -11,8 +11,13 @@ import java.math.BigDecimal;
 @Data
 public class DiscountModel {
 
+    /**
+     * Discount type
+     * **/
+    private DiscountType discountType;
 
-    private DiscountType priceType;
-
+    /**
+     * Discount amount
+     * **/
     private BigDecimal amount;
 }

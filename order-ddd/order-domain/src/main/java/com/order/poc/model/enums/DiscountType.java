@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * discount type
+ * **/
 public enum DiscountType implements Serializable {
 
     /**
