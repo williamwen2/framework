@@ -1,4 +1,4 @@
-package com.order.poc.service;
+package com.order.poc.domain.service;
 
 import com.order.poc.model.OrderModel;
 

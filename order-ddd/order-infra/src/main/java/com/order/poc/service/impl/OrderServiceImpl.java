@@ -2,7 +2,7 @@ package com.order.poc.service.impl;
 
 import com.order.poc.db.repository.OrderRepository;
 import com.order.poc.model.OrderModel;
-import com.order.poc.service.OrderService;
+import com.order.poc.domain.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *
  * **/
 @Service
-public class OrderServicevImpl implements OrderService {
+public class OrderServiceImpl implements OrderService {
 
    @Autowired
    private OrderRepository orderRepository;
