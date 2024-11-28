@@ -45,7 +45,6 @@ public enum ProductType {
         this.value = value;
     }
 
-
     public static ProductType fromCode(String value){
         ProductType productType = containsMap.get(value);
         if(productType == null){

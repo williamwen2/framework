@@ -3,6 +3,9 @@ package com.order.poc.model.enums;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * product type
+ * **/
 public enum ProductType {
 
     /**
